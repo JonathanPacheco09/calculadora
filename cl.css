@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    display: flex;
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.gridnumero{
+    color: white;
+    background-color: gray;
+    width: 39px;
+    height: 35px;
+    text-align: center;
+    font-size: 27px;
+    margin: 18px;
+    
+}
+
+.gridnumeroC{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: orange;
+    width: 39px;
+    height: 35px;
+    text-align: center;
+    font-size: 28px;
+    margin: 18px;
+
+}
